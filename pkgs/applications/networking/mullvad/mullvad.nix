@@ -17,13 +17,13 @@
 }:
 rustPlatform.buildRustPackage rec {
   pname = "mullvad";
-  version = "2023.6";
+  version = "2024.1";
 
   src = fetchFromGitHub {
     owner = "mullvad";
     repo = "mullvadvpn-app";
     rev = version;
-    hash = "sha256-O4YnHwG5GUDR7MzGsuLnElcczEct+P+4/Vn/eAoo6/s=";
+    hash = "sha256-syIBYZe+e6i5A6Te51eNKcwwycnRhO1o2tP+z81NYXQ=";
   };
 
   cargoLock = {
